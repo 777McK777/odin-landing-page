@@ -20,3 +20,5 @@ as good as they thought you were. Wife and family too.
 But you are as good as they KNOW you are. It's all in my head. I know that,
 the thing is if I don't keep it there and continue to let it burst forth, I
 probably will self-fulfill the prophecy I'm so anxiously trying to avoid.
+
+Credit to William Woods for the Logo Image.
