@@ -1,5 +1,5 @@
 * {
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     padding: 0px;
     margin: 0px;
     color: #F9FAF8;
@@ -81,6 +81,7 @@
     gap: 40px;
     background-color: #F9FAF8;
     padding-top: 40px;
+    padding-bottom: 60px;
 }
 
 .center_header {
@@ -124,7 +125,32 @@
     width: 140px;
 }
 
-.quote {
+.quote_land {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-right: 80px;
+    padding-left: 80px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #e5e7eb;
+}
+
+.quote {
+    flex: 1 1 auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.author {
+    flex: 1 1 auto;
+    align-self: flex-end;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
 }
