@@ -80,8 +80,8 @@
     justify-content: center;
     gap: 40px;
     background-color: #F9FAF8;
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 100px;
 }
 
 .center_header {
@@ -96,15 +96,16 @@
     display: flex;
     flex: 1 1 auto;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 .content {
     display: flex;
     flex-direction: column;
+    gap: 8px;
     flex: 1 1 auto;
     justify-content: center;
     align-items: center;
+    margin: 0px;
 }
 
 .content_image {
@@ -112,9 +113,9 @@
     border: solid;
     border-width: 4px;
     border-color: #3882f6;
-    border-radius: 10%;
-    height: 120px;
-    width: 120px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
 }
 
 .content_text {
@@ -122,14 +123,14 @@
     text-align: center;
     color: #1f2937;
     text-wrap: wrap;
-    width: 140px;
+    width: 170px;
 }
 
 .quote_land {
     padding-top: 140px;
     padding-bottom: 140px;
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-right: 180px;
+    padding-left: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,7 +151,75 @@
     flex: 1 1 auto;
     align-self: flex-end;
     color: #1f2937;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 900;
     text-align: right;
+}
+
+.call_action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.blue_box {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    height: 180px;
+    width: 500px;
+    border-radius: 25px;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.why {
+    flex: 2 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.why_header {
+    flex: 1 1 auto;
+    text-align:start;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.why_content {
+    flex: 1 1 auto;
+    font-size: 20px;
+}
+
+.why_button {
+    flex: 1 1 auto;
+}
+
+.why_button button {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #3882f6;
+    border-color:#F9FAF8;
+    border-radius: 25px;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.footer {
+    display: flex;
+    height: 120px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
 }
